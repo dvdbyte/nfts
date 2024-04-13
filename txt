@@ -1,0 +1,61 @@
+Compiling 38 files with 0.8.24
+Solc 0.8.24 finished in 8.46s
+Compiler run [32msuccessful![0m
+Analysing contracts...
+Running tests...
+Uncovered for script/DeployBasicNft.s.sol:
+
+Uncovered for src/BasicNft.sol:
+- Function "mintNft" (location: source ID 36, line 15, chars 324-491, hits: 0)
+- Line (location: source ID 36, line 16, chars 380-421, hits: 0)
+- Statement (location: source ID 36, line 16, chars 380-421, hits: 0)
+- Line (location: source ID 36, line 17, chars 427-464, hits: 0)
+- Statement (location: source ID 36, line 17, chars 427-464, hits: 0)
+- Line (location: source ID 36, line 18, chars 470-486, hits: 0)
+- Statement (location: source ID 36, line 18, chars 470-486, hits: 0)
+- Function "tokenURI" (location: source ID 36, line 21, chars 495-616, hits: 0)
+- Line (location: source ID 36, line 22, chars 581-611, hits: 0)
+- Statement (location: source ID 36, line 22, chars 581-611, hits: 0)
+
+Anchors for Contract "BasicNft" (solc 0.8.24+commit.e11b9ed9.Linux.gcc, source ID 36):
+- IC 679 -> Item 9
+  - Refers to item: Function "mintNft" (location: source ID 36, line 15, chars 324-491, hits: 0)
+- IC 2034 -> Item 10
+  - Refers to item: Line (location: source ID 36, line 16, chars 380-421, hits: 0)
+- IC 2034 -> Item 11
+  - Refers to item: Statement (location: source ID 36, line 16, chars 380-421, hits: 0)
+- IC 2069 -> Item 12
+  - Refers to item: Line (location: source ID 36, line 17, chars 427-464, hits: 0)
+- IC 2069 -> Item 13
+  - Refers to item: Statement (location: source ID 36, line 17, chars 427-464, hits: 0)
+- IC 2081 -> Item 14
+  - Refers to item: Line (location: source ID 36, line 18, chars 470-486, hits: 0)
+- IC 2081 -> Item 15
+  - Refers to item: Statement (location: source ID 36, line 18, chars 470-486, hits: 0)
+- IC 631 -> Item 16
+  - Refers to item: Function "tokenURI" (location: source ID 36, line 21, chars 495-616, hits: 0)
+- IC 1871 -> Item 17
+  - Refers to item: Line (location: source ID 36, line 22, chars 581-611, hits: 0)
+- IC 1871 -> Item 18
+  - Refers to item: Statement (location: source ID 36, line 22, chars 581-611, hits: 0)
+
+Anchors for Contract "DeployBasicNft" (solc 0.8.24+commit.e11b9ed9.Linux.gcc, source ID 35):
+- IC 59 -> Item 0
+  - Refers to item: Function "run" (location: source ID 35, line 9, chars 219-377, hits: 1)
+- IC 158 -> Item 1
+  - Refers to item: Line (location: source ID 35, line 10, chars 269-288, hits: 1)
+- IC 158 -> Item 2
+  - Refers to item: Statement (location: source ID 35, line 10, chars 269-288, hits: 1)
+- IC 253 -> Item 3
+  - Refers to item: Line (location: source ID 35, line 11, chars 296-321, hits: 1)
+- IC 253 -> Item 4
+  - Refers to item: Statement (location: source ID 35, line 11, chars 296-321, hits: 1)
+- IC 394 -> Item 5
+  - Refers to item: Line (location: source ID 35, line 12, chars 329-347, hits: 1)
+- IC 394 -> Item 6
+  - Refers to item: Statement (location: source ID 35, line 12, chars 329-347, hits: 1)
+- IC 489 -> Item 7
+  - Refers to item: Line (location: source ID 35, line 13, chars 355-370, hits: 1)
+- IC 489 -> Item 8
+  - Refers to item: Statement (location: source ID 35, line 13, chars 355-370, hits: 1)
+
